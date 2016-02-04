@@ -35,13 +35,12 @@ module.exports = (metadata) => {
     return images.map(image => {
       return Object.assign({ type },
         image.original ? originalImages(type, image.original)[0] : null,
-        image.thumb ? { thumb: image.thumb[0] } : null
+        image.thumb ? { thumb: `${metadata.staticUrl}/${image.thumb[0]}` } : null
       );
     });
   };
 
   const imagesList = (images) => {
-    console.log(images);
     return Object.keys(images)
       .map(type => {
         if (type !== 'fanart' && type !== 'screenshot') {
