@@ -1,7 +1,7 @@
 {
   "name": "thegamesdb",
   "author": "Nauzet Hernandez <nauzethc@gmail.com> (http://www.nauzethdez.com)",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "TheGamesDB.net API wrapper",
   "homepage": "https://github.com/nauzethc/thegamesdb-api",
   "main": "lib/api.js",
