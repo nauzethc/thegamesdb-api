@@ -3,7 +3,7 @@ const parseDate = require('./utils').parseDate;
 module.exports = {
 
   endpoint: 'http://thegamesdb.net/api',
-  staticUrl: 'http://thegamesdb.net/images',
+  staticUrl: '',
 
   gameDetail: [
     { name: 'id', parser: parseInt },
