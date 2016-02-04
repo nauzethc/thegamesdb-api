@@ -1,0 +1,35 @@
+{
+  "name": "thegamesdb",
+  "author": "Nauzet Hernandez <nauzethc@gmail.com> (http://www.nauzethdez.com)",
+  "version": "0.1.0",
+  "description": "TheGamesDB.net API wrapper",
+  "homepage": "https://github.com/nauzethc/thegamesdb-api",
+  "main": "lib/api.js",
+  "scripts": {
+    "build": "babel -d lib src",
+    "prepublish": "npm run build"
+  },
+  "keywords": [
+    "thegamesdb",
+    "api",
+    "games-api",
+    "games",
+    "videogame",
+    "gamedb",
+    "db"
+  ],
+  "respository": {
+    "type": "git",
+    "url": "https://github.com/nauzethc/thegamesdb-api"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "axios": "0.9.1",
+    "xml2js": "0.4.16",
+    "xml2json": "0.9.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.4.5",
+    "babel-preset-es2015": "^6.3.13"
+  }
+}
